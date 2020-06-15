@@ -47,7 +47,7 @@ and check the results.
         assert "The email address or phone number that you've entered doesn't match any account." in self.driver.page_source
 ```
 
-#Best-Buy-APIs-Automation
+# Best-Buy-APIs-Automation
 
 This part is covering a list of automated test cases for the best buy APIs.
 
@@ -60,7 +60,8 @@ I used [REST Assured](http://rest-assured.io/).
 * TestNG.
 
 ### Maven Dependency
-```<dependency>
+```
+  <dependency>
   	<groupId>io.rest-assured</groupId>
   	<artifactId>rest-assured</artifactId>
   	<version>2.9.0</version>
